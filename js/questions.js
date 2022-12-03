@@ -100,7 +100,7 @@ let questions = [
   },
   {
     numb: 10,
-    question: "How do you say "Merry Christmas" in Spanish?",
+    question: "How do you say Merry Christmas in Spanish?",
     answer: "Feliz Navidad",
     options: [
       "Nollaig Shona",
@@ -112,12 +112,12 @@ let questions = [
   {
     numb: 11,
     question: "What is the best-selling Christmas song ever?",
-    answer: "White Christmas - Bing Crosby",
+    answer: "White Christmas by Bing Crosby",
     options: [
-      "All I Want for Christmas Is You - Mariah Carey",
-      "Do They Know It's Christmas - Band Aid",
-      "Fairytale of New York - The Pogues",
-      "White Christmas - Bing Crosby"
+      "All I Want for Christmas Is You by Mariah Carey",
+      "Do They Know It's Christmas by Band Aid",
+      "Fairytale of New York by The Pogues",
+      "White Christmas by Bing Crosby"
     ]
   },
   {

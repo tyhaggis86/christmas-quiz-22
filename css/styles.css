@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("../images/trinity-library.jpg") no-repeat;
+}
+
+
+.row{
+  width: 100%;
+}
+
+.page-title{
+  color: grey;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container{
+ position: relative;
+ top:50px;
+ margin: 15px;
+}
+
+.item{
+  position: relative;
+  top: 0;
+  background-color:#BE1E2D;
+  margin: 15px;
+  padding: 25px;
+  border: 1px solid black;
+}
+
+.item p{
+  margin-top: 18px;
+  text-align: left;
+  font-size:100%;
+}
+
+.item-title{
+  margin: auto;
+  text-align: center;
+} 
+
+button{
+        font: 1rem 'Trebuchet MS', Arial, sans-serif;
+        background-color: #4a4a4a;
+        color: white;
+        cursor: pointer;
+      }
+
+
+/*------ Large Screen/Desktop View ------*/
+@media (min-width: 992px){
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 33.33%;
+  }
+  .col-lg-3 {
+    width: 33.33%;
+  }
+  .col-lg-4 {
+    width: 8.33%;
+  }
+  .col-lg-5 {
+    width: 8.33%;
+  }
+  .col-lg-6 {
+    width: 8.33%;
+  }
+  .col-lg-7 {
+    width: 8.33%;
+  }
+  .col-lg-8 {
+    width: 8.33%;
+  }
+  .col-lg-9 {
+    width: 8.33%;
+  }
+  .col-lg-10 {
+    width: 8.33%;
+  }
+  .col-lg-11 {
+    width: 8.33%;
+  }
+  .col-lg-12 {
+    width: 8.33%;
+  }
+
+}
+
+/*------ Medium Screen/Tablet View ------*/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-lg-1 {
+    width: 50%;
+    float: left;
+  }
+  .col-lg-2{
+   width: 50%;
+    float: left;
+ }
+ .col-lg-3{
+   width: 100%;
+    float: left;
+ }
+}
+
+/*------ Small Screen/Mobile View ------*/
+@media (max-width: 767px){
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+}
